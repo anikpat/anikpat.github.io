@@ -52,7 +52,7 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="ThisWayUp (St Vincent's Hospital)"
+        name="ThisWayUp"
         description="THIS WAY UP is a trusted Australian provider of evidence-based, internet-delivered Cognitive Behavioural Therapy (iCBT) programs."
         link="https://thiswayup.org.au/"
         img={{ src: '/assets/images/hospital.png', alt: 'Project Maps' }}
