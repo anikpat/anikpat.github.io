@@ -12,7 +12,7 @@ imgAlt: 'Image post 7'
 Dapr is a portable, event-driven runtime that makes it easy for any developer to build resilient, stateless and stateful applications that run on the cloud and edge and embrace the diversity of languages and developer frameworks, Leveraging the benefits of a sidecar architecture, Dapr helps you tackle the challenges that come with building microservices and keeps your code platform agnostic.
 
 ## Dapr Services
-![Dapr Service](/src/images/blog-1/dapr-services.png 'Dapr Services')
+![Dapr Service](/src/images/dapr-services.png 'Dapr Services')
 
 ## Laravel Caveats
 
@@ -33,14 +33,14 @@ Implementation of Dapr brings flexibility and robustness to the application. Usi
 
 ## How does it all work?
 Let’s start by explaining the architecture with a simple diagram
-![Dapr Working](/src/images/blog-1/dapr-working.png 'Dapr Working')
+![Dapr Working](/src/images/dapr-working.png 'Dapr Working')
 
 
 ## Key Components
 
 ### Dapr Connections Publisher Service:
 Dapr connections have been setup declaratively using YAML files
-![topic binding](/src/images/blog-1/topic-binding.png 'Topic Binding')
+![topic binding](/src/images/topic-binding.png 'Topic Binding')
 
 The Key components in the above file:
 
@@ -52,7 +52,7 @@ The Key components in the above file:
 
 ### Dapr Components Consumer Service:
 One additional subscribe component is required for the consumer service when creating dapr connections.
-![Subscription binding](/src/images/blog-1/subscription-binding.png 'Subscription Binding')
+![Subscription binding](/src/images/subscription-binding.png 'Subscription Binding')
 
 Similar to the publish service having publish components the subscriber will need a subscribe component. That is an addition to the publish app declarations above which act as an address for the consumer service to listen on.
 
