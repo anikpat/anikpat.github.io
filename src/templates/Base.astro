@@ -1,7 +1,8 @@
 ---
-import { FooterNew } from '@/partials/FooterNew';
+import { Footer } from '@/partials/Footer';
 import { Navbar } from '@/partials/Navbar';
 import { AppConfig } from '@/utils/AppConfig';
+import { Fragment } from 'react';
 
 export interface Props {
   head: {
@@ -31,6 +32,6 @@ const {
 
     <slot></slot>
 
-    <FooterNew />
+    <Footer />
   </body>
 </html>

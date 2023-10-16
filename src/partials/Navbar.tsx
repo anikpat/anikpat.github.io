@@ -13,12 +13,13 @@ const Navbar = () => (
         <Logo
           icon={
             <svg
-              className="mr-1 h-8 w-10 stroke-cyan-600"
+              className="mr-1 h-10 w-10 stroke-cyan-600"
               xmlns="http://www.w3.org/2000/svg"
-              fill="none"
               viewBox="0 0 24 24"
+              fill="none"
               strokeWidth="1.5"
-              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path
                 strokeLinecap="round"
