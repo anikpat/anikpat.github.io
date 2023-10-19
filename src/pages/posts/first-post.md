@@ -12,7 +12,7 @@ imgAlt: 'Image post 7'
 Dapr is a portable, event-driven runtime that makes it easy for any developer to build resilient, stateless and stateful applications that run on the cloud and edge and embrace the diversity of languages and developer frameworks, Leveraging the benefits of a sidecar architecture, Dapr helps you tackle the challenges that come with building microservices and keeps your code platform agnostic.
 
 ## Dapr Services
-![Dapr Service](/src/images/dapr-services.png 'Dapr Services')
+![dapr services](/src/images/dapr-services.png 'Dapr Services')
 
 ## Laravel Caveats
 
@@ -102,8 +102,5 @@ Fin..
 
 ### Conclusion
 Dapr provides us tools to drive event-driven, fault tolerent architectures. Dapr also is introducing workflows that can statefully do long running tasks. Hope you have learned new stuff and enjoyed this article. Thanks.
-
-### Test
-![alt text](/src/images/random.jpeg 'Logo Title Text 1')
 
 
