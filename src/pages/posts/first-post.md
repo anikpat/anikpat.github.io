@@ -33,14 +33,14 @@ Implementation of Dapr brings flexibility and robustness to the application. Usi
 
 ## How does it all work?
 Let’s start by explaining the architecture with a simple diagram
-![Dapr Working](/src/images/dapr-working.png 'Dapr Working')
+![Dapr Working](/assets/images/dapr-working.png 'Dapr Working')
 
 
 ## Key Components
 
 ### Dapr Connections Publisher Service:
 Dapr connections have been setup declaratively using YAML files
-![topic binding](/src/images/topic-binding.png 'Topic Binding')
+![topic binding](/assets/images/topic-binding.png 'Topic Binding')
 
 The Key components in the above file:
 
@@ -52,7 +52,7 @@ The Key components in the above file:
 
 ### Dapr Components Consumer Service:
 One additional subscribe component is required for the consumer service when creating dapr connections.
-![Subscription binding](/src/images/subscription-binding.png 'Subscription Binding')
+![Subscription binding](/assets/images/subscription-binding.png 'Subscription Binding')
 
 Similar to the publish service having publish components the subscriber will need a subscribe component. That is an addition to the publish app declarations above which act as an address for the consumer service to listen on.
 
